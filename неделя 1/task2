@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    /*
+    Вариант 9
+    Задача 2i
+    */
+    cout << "        * * * * * * * *      " << endl;
+    cout << "      *                 *      " << endl;
+    cout << "    *                     *   " << endl;
+    cout << "  *                         * " << endl;
+    cout << "  *                         * " << endl;
+    cout << "  *                         * " << endl;
+    cout << "  *                         * " << endl;
+    cout << "  *                         * " << endl;
+    cout << "  *                         * " << endl;
+    cout << "    *                     *   " << endl;
+    cout << "      *                 *     " << endl;
+    cout << "        * * * * * * * *      " << endl;
+    return 0;
+}
