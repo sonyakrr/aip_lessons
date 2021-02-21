@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    /*
+    Вариант 9
+    Вывести на экран первую букву имени (С)
+    */
+    cout << "*******" << endl;
+    cout << "*" << endl;
+    cout << "*" << endl;
+    cout << "*" << endl;
+    cout << "*" << endl;
+    cout << "*******" << endl;
+    return 0;
+}
