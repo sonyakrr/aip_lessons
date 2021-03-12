@@ -1,0 +1,26 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    /*
+    Вариант 9
+    Задача 9i
+    Вывести на экран Н строк из нулей, причем количество нулей в каждой строке равно номеру строки. Количество строк Н вводит пользователь (можно из файла).
+*/
+    float num;
+    std::cout << "Enter num: ";
+    std::cin >> num;
+   for(int i=0; i < num; i++){
+           for(int j=-1; j < i; j++)
+               std::cout << 0;
+           std::cout << std::endl;
+       }
+
+       std::cout << std::endl;
+
+       std::getchar();  // ожидание ввода, чтобы прога
+       std::getchar();  // не закрывалась после выполнения
+       return 0;
+    }
